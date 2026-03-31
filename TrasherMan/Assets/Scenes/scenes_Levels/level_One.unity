@@ -325,7 +325,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473098114}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &473098118
 Camera:
   m_ObjectHideFlags: 0
@@ -377,6 +377,11 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!4 &669212996 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1216528301445838762, guid: 70643a9e65cdfa342a0813d762fefcc1, type: 3}
+  m_PrefabInstance: {fileID: 2005293931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &927480472
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +584,7 @@ PrefabInstance:
     - target: {fileID: 6940929088908687320, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
       propertyPath: playerOrientation
       value: 
-      objectReference: {fileID: 2005293932}
+      objectReference: {fileID: 669212996}
     - target: {fileID: 8247728815975921543, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
       propertyPath: m_Name
       value: FirstPersonCamera

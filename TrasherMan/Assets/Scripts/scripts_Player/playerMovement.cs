@@ -72,6 +72,14 @@ public class playerMovement : MonoBehaviour {
 
     //FixedUpdate Method - Called at a Fixed Interval (Used for Physics Calculations)
     void FixedUpdate() {
+
+        // Align the player's yaw with the playerOrientation so the player object always faces camera yaw.
+        // Use Rigidbody.MoveRotation so rotation stays compatible with physics.
+        if (playerOrientation != null) {
+            Quaternion targetRotation = Quaternion.Euler(0f, playerOrientation.eulerAngles.y, 0f);
+            playerRigidbody.MoveRotation(targetRotation);
+        }
+
         MovePlayer(); //Calls the MovePlayer method to move the player based on the input.
     } //End of FixedUpdate Method
 
