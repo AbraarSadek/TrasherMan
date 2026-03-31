@@ -4,9 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Compost
-  - Garbage
-  - Recycle
+  - canPickUp
   layers:
   - Default
   - TransparentFX
@@ -17,7 +15,7 @@ TagManager:
   - 
   - whatIsPlayer
   - whatIsGround
-  - 
+  - holdLayer
   - 
   - 
   - 
