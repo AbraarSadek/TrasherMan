@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 8877314}
   - component: {fileID: 8877313}
   - component: {fileID: 8877312}
+  - component: {fileID: 8877316}
   m_Layer: 0
   m_Name: Compost
   m_TagString: Compost
@@ -229,6 +230,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8877316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f129ac76ef234e96e7a492e739279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceptedCategory: 2
 --- !u!1 &203844586
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +518,7 @@ GameObject:
   - component: {fileID: 788935229}
   - component: {fileID: 788935228}
   - component: {fileID: 788935227}
+  - component: {fileID: 788935231}
   m_Layer: 0
   m_Name: Recycle
   m_TagString: Recycle
@@ -602,6 +617,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &788935231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788935226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f129ac76ef234e96e7a492e739279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceptedCategory: 1
 --- !u!1 &905142689
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +642,7 @@ GameObject:
   - component: {fileID: 905142692}
   - component: {fileID: 905142691}
   - component: {fileID: 905142690}
+  - component: {fileID: 905142694}
   m_Layer: 0
   m_Name: Garbage
   m_TagString: Garbage
@@ -712,6 +741,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &905142694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905142689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f129ac76ef234e96e7a492e739279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceptedCategory: 0
 --- !u!1 &927480472
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +988,7 @@ GameObject:
   - component: {fileID: 1275418908}
   - component: {fileID: 1275418907}
   - component: {fileID: 1275418911}
+  - component: {fileID: 1275418912}
   m_Layer: 0
   m_Name: Cube
   m_TagString: canPickUp
@@ -1069,6 +1112,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1275418912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275418906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a6e191e095db44786e219407f47545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: 0
 --- !u!1 &1423901873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1617294806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1164,7 +1220,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
