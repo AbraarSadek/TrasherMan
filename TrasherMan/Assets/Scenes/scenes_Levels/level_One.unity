@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 349448986}
   - component: {fileID: 349448985}
   - component: {fileID: 349448984}
+  - component: {fileID: 349448987}
   m_Layer: 0
   m_Name: temp_CompostBin
   m_TagString: whatIsCompostBin
@@ -485,6 +486,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349448982}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &349448987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349448982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f08ed98fbe0dff4a9c49c2867244fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &448853004
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +646,7 @@ GameObject:
   - component: {fileID: 627318443}
   - component: {fileID: 627318442}
   - component: {fileID: 627318441}
+  - component: {fileID: 627318444}
   m_Layer: 0
   m_Name: temp_GlassBin
   m_TagString: whatIsGlassBin
@@ -730,6 +744,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627318439}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &627318444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627318439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f08ed98fbe0dff4a9c49c2867244fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &669212996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1216528301445838762, guid: 70643a9e65cdfa342a0813d762fefcc1, type: 3}
@@ -1299,6 +1325,7 @@ GameObject:
   - component: {fileID: 1607110579}
   - component: {fileID: 1607110578}
   - component: {fileID: 1607110577}
+  - component: {fileID: 1607110580}
   m_Layer: 0
   m_Name: temp_ElectronicsBin
   m_TagString: whatIsElectronicsBin
@@ -1396,6 +1423,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607110575}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1607110580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607110575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f08ed98fbe0dff4a9c49c2867244fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1667720014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,6 +1447,7 @@ GameObject:
   - component: {fileID: 1667720018}
   - component: {fileID: 1667720017}
   - component: {fileID: 1667720016}
+  - component: {fileID: 1667720019}
   m_Layer: 0
   m_Name: temp_GarbageBin
   m_TagString: whatIsGarbageBin
@@ -1505,6 +1545,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667720014}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1667720019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667720014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f08ed98fbe0dff4a9c49c2867244fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1718867969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,6 +1569,7 @@ GameObject:
   - component: {fileID: 1718867973}
   - component: {fileID: 1718867972}
   - component: {fileID: 1718867971}
+  - component: {fileID: 1718867974}
   m_Layer: 0
   m_Name: temp_RecycleBin
   m_TagString: whatIsRecycleBin
@@ -1614,6 +1667,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718867969}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1718867974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718867969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f08ed98fbe0dff4a9c49c2867244fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1799310283
 GameObject:
   m_ObjectHideFlags: 0
