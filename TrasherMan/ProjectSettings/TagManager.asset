@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 3
   tags:
   - canPickUp
+  - whatIsGarbage
+  - whatIsRecyclable
+  - whatIsCompost
+  - whatIsElectronics
+  - whatIsGlass
+  - whatIsGarbageBin
+  - whatIsRecycleBin
+  - whatIsCompostBin
+  - whatIsElectronicsBin
+  - whatIsGlassBin
   layers:
   - Default
   - TransparentFX
