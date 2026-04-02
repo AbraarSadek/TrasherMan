@@ -709,7 +709,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2987826994839498636, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
       propertyPath: m_Cameras.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2987826994839498636, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
       propertyPath: 'm_Cameras.Array.data[0]'
@@ -758,6 +758,10 @@ PrefabInstance:
     - target: {fileID: 5478188312847748320, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6280434161317119759, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
+      propertyPath: m_Depth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6280434161317119759, guid: a3d738c461c11a34493d113934cbe14c, type: 3}
       propertyPath: m_CullingMask.m_Bits
@@ -1363,7 +1367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInterval: 3
-  maxTrashCount: 12
+  maxTrashCount: 25
   trashPrefabs:
   - {fileID: 5714669899282270382, guid: 7c55c35c62911b244a6e27f2fd15ff05, type: 3}
   - {fileID: 661639661363237482, guid: 81d31109f8a36ad4d92d3381636ae1ac, type: 3}
