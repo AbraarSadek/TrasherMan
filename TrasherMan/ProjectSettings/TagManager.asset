@@ -10,6 +10,11 @@ TagManager:
   - whatIsCompost
   - whatIsElectronics
   - whatIsGlass
+  - whatIsGarbageBin
+  - whatIsRecycleBin
+  - whatIsCompostBin
+  - whatIsElectronicsBin
+  - whatIsGlassBin
   layers:
   - Default
   - TransparentFX
