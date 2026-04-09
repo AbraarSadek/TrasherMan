@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //mainMenuManager Class - Manages the main menu UI interactions
 public class mainMenuManager : MonoBehaviour {
@@ -8,7 +10,8 @@ public class mainMenuManager : MonoBehaviour {
     public void OnPlayButtonPress() {
 
         Debug.Log("Play Button Pressed"); //Logs to the console that the play button was pressed
-    
+        SceneManager.LoadScene("level_One"); 
+
     } //End of OnPlayButtonPress Method
 
     //OnQuitButtonPress Method - Called when the quit button is pressed
