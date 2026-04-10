@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Timer Class - Manages the countdown timer, updates the UI, and handles game over conditions when time runs out
 public class Timer : MonoBehaviour {
 
     [Header("Game Object Reference")]
@@ -14,8 +15,8 @@ public class Timer : MonoBehaviour {
 
     //Update Method - Is called once per frame
     void Update() {
-        
-        //Else-If Statement - 
+
+        //Else-If Statement - Check if remaining time is greater than 0 to continue counting down
         if (remainingTime > 0) {
 
             remainingTime -= Time.deltaTime;
@@ -24,15 +25,16 @@ public class Timer : MonoBehaviour {
 
             remainingTime = 0f;
             timerText.color = Color.red;
-            //TODO: Call gameOver method here from GameManager script
+            Debug.Log("GAME OVER (Time ran out)");
+            GameManager.Instance.TriggerGameOver(false); // player did NOT lose by score
 
-        }
+        } //End of Else-If Statement
 
         int minutes = Mathf.FloorToInt(remainingTime / 60f);
         int seconds = Mathf.FloorToInt(remainingTime % 60f);
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-    }
+    } //End of Update method
 
-}
+} //End of Timer class
