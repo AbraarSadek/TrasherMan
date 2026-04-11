@@ -51,8 +51,7 @@ public class playerMovement : MonoBehaviour {
     } //End of Start Method
 
     //Update Method - Called Once Per Frame
-    void Update()
-    {
+    void Update() {
 
         //Checks if the player is grounded by casting a ray downwards from the player's position.
         isGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
