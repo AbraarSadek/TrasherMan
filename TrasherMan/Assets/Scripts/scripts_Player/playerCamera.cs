@@ -35,8 +35,8 @@ public class playerCamera : MonoBehaviour {
     void Start() {
 
         //Locks the cursor to the center of the screen and makes it invisible
-        Cursor.lockState = CursorLockMode.Locked; 
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked; 
+        //Cursor.visible = false;
 
     } //End of Start Method
 
