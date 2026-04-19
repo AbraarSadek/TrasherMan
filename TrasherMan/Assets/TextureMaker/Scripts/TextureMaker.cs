@@ -734,7 +734,6 @@ namespace TextureMaker
         {
             // TODO: Blur first so we get rid of noise.
             Texture2D nTex = new Texture2D(t.width, t.height, TextureFormat.RGBA32, t.mipmapCount > 1);
-            nTex.alphaIsTransparency = false;
 
             Color[] origColors = t.GetPixels();
             Color[] colors = new Color[origColors.Length];
